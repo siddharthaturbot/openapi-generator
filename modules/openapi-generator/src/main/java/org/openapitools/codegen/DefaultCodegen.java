@@ -151,7 +151,7 @@ public class DefaultCodegen implements CodegenConfig {
     protected Map<String, String> importMapping = new HashMap<>();
     protected String modelPackage = "", apiPackage = "", fileSuffix;
     protected String modelNamePrefix = "", modelNameSuffix = "";
-    protected String apiNamePrefix = "", apiNameSuffix = "Api";
+    protected String apiNamePrefix = "", apiNameSuffix = "";
     protected String testPackage = "";
     protected String filesMetadataFilename = "FILES";
     protected String versionMetadataFilename = "VERSION";
